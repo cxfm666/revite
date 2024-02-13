@@ -79,10 +79,10 @@ const Loader = styled.div`
 const TRUSTED_HOSTS = [
     "local.revolt.chat:3000",
     "local.revolt.chat:3001",
-    "rvlt.gg",
+    "chat.moonyun.cn",
 ];
 
-const REMOTE = "https://rvlt.gg";
+const REMOTE = "http://chat.moonyun.cn";
 
 export default function Discover() {
     const state = useApplicationState();
